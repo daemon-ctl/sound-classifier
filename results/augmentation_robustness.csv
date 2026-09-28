@@ -1,0 +1,4 @@
+augmentation,human_validation,model_consistency,macro_f1_delta,decision
+time_shift,passed,0.96,-0.001,include
+gain,passed,0.91,-0.032,include
+noise,passed,0.30,-0.764,exclude

@@ -1,0 +1,111 @@
+case_id,stage,sample_id,original_path,class,session,augmentation,strength,parameters,human_verdict
+fbcc35e650c75e3c,single,clap_00_s2_phone_near_0004,clap\s02_phone_near\s2_phone_near_0004.wav,clap,s02_phone_near,time_shift,-20%,"{""augmentation"": ""time_shift"", ""fraction"": -0.2}",OK
+986aaccd0b15f430,single,clap_01_clap_0008,clap\s03_pc_far\clap_0008.wav,clap,s03_pc_far,time_shift,-10%,"{""augmentation"": ""time_shift"", ""fraction"": -0.1}",OK
+046e07a0bbff6ff6,single,clap_02_clap_0013,clap\s08_pc_ambient\clap_0013.wav,clap,s08_pc_ambient,time_shift,-5%,"{""augmentation"": ""time_shift"", ""fraction"": -0.05}",OK
+bff6492c74f77a7a,single,clap_03_clap_0008,clap\s06_pc_other_room\clap_0008.wav,clap,s06_pc_other_room,time_shift,+5%,"{""augmentation"": ""time_shift"", ""fraction"": 0.05}",OK
+5b4feb71d5e45321,single,clap_00_s2_phone_near_0004,clap\s02_phone_near\s2_phone_near_0004.wav,clap,s02_phone_near,time_shift,+10%,"{""augmentation"": ""time_shift"", ""fraction"": 0.1}",OK
+f23653cb27f1f3a3,single,clap_01_clap_0008,clap\s03_pc_far\clap_0008.wav,clap,s03_pc_far,time_shift,+20%,"{""augmentation"": ""time_shift"", ""fraction"": 0.2}",OK
+5c600fefba480a00,single,clap_02_clap_0013,clap\s08_pc_ambient\clap_0013.wav,clap,s08_pc_ambient,gain,-9 dB,"{""augmentation"": ""gain"", ""gain_db"": -9.0}",OK
+94543d4ad6a20f76,single,clap_03_clap_0008,clap\s06_pc_other_room\clap_0008.wav,clap,s06_pc_other_room,gain,-6 dB,"{""augmentation"": ""gain"", ""gain_db"": -6.0}",OK
+5bcd2afa4eeed06f,single,clap_00_s2_phone_near_0004,clap\s02_phone_near\s2_phone_near_0004.wav,clap,s02_phone_near,gain,-3 dB,"{""augmentation"": ""gain"", ""gain_db"": -3.0}",OK
+89645c3169903a40,single,clap_01_clap_0008,clap\s03_pc_far\clap_0008.wav,clap,s03_pc_far,gain,+3 dB,"{""augmentation"": ""gain"", ""gain_db"": 3.0}",OK
+64b04e29c53f644c,single,clap_02_clap_0013,clap\s08_pc_ambient\clap_0013.wav,clap,s08_pc_ambient,gain,+6 dB,"{""augmentation"": ""gain"", ""gain_db"": 6.0}",OK
+cff588e42bc97b28,single,clap_03_clap_0008,clap\s06_pc_other_room\clap_0008.wav,clap,s06_pc_other_room,gain,+9 dB,"{""augmentation"": ""gain"", ""gain_db"": 9.0}",OK
+8bcbf29deadeb3a3,single,clap_00_s2_phone_near_0004,clap\s02_phone_near\s2_phone_near_0004.wav,clap,s02_phone_near,noise,30 dB SNR,"{""augmentation"": ""noise"", ""seed"": 2096453547, ""snr_db"": 30.0}",OK
+9029d92f4c64d6bf,single,clap_01_clap_0008,clap\s03_pc_far\clap_0008.wav,clap,s03_pc_far,noise,20 dB SNR,"{""augmentation"": ""noise"", ""seed"": 2054462997, ""snr_db"": 20.0}",OK
+a3d1b6ba134f4224,single,clap_02_clap_0013,clap\s08_pc_ambient\clap_0013.wav,clap,s08_pc_ambient,noise,15 dB SNR,"{""augmentation"": ""noise"", ""seed"": 4210707884, ""snr_db"": 15.0}",OK
+11d8a2eb9e02020a,single,knock_00_s4r1p2m_0074,knock\s04_phone_far\s4r1p2m_0074.wav,knock,s04_phone_far,time_shift,-20%,"{""augmentation"": ""time_shift"", ""fraction"": -0.2}",OK
+38d0389f72513847,single,knock_01_knock_0020,knock\s08_pc_ambient\knock_0020.wav,knock,s08_pc_ambient,time_shift,-10%,"{""augmentation"": ""time_shift"", ""fraction"": -0.1}",OK
+b7f8789c4e6eea5b,single,knock_02_knock_0009,knock\s06_pc_other_room\knock_0009.wav,knock,s06_pc_other_room,time_shift,-5%,"{""augmentation"": ""time_shift"", ""fraction"": -0.05}",OK
+dcc0eaeb4a7e29aa,single,knock_03_knock_0014,knock\s03_pc_far\knock_0014.wav,knock,s03_pc_far,time_shift,+5%,"{""augmentation"": ""time_shift"", ""fraction"": 0.05}",OK
+bbf65e89f5d91f9b,single,knock_00_s4r1p2m_0074,knock\s04_phone_far\s4r1p2m_0074.wav,knock,s04_phone_far,time_shift,+10%,"{""augmentation"": ""time_shift"", ""fraction"": 0.1}",OK
+8a04790162a30d65,single,knock_01_knock_0020,knock\s08_pc_ambient\knock_0020.wav,knock,s08_pc_ambient,time_shift,+20%,"{""augmentation"": ""time_shift"", ""fraction"": 0.2}",OK
+a513b24ec6e0f002,single,knock_02_knock_0009,knock\s06_pc_other_room\knock_0009.wav,knock,s06_pc_other_room,gain,-9 dB,"{""augmentation"": ""gain"", ""gain_db"": -9.0}",OK
+65c4c35820281f87,single,knock_03_knock_0014,knock\s03_pc_far\knock_0014.wav,knock,s03_pc_far,gain,-6 dB,"{""augmentation"": ""gain"", ""gain_db"": -6.0}",OK
+5995da35c5748aed,single,knock_00_s4r1p2m_0074,knock\s04_phone_far\s4r1p2m_0074.wav,knock,s04_phone_far,gain,-3 dB,"{""augmentation"": ""gain"", ""gain_db"": -3.0}",OK
+07fee2e76eac59c2,single,knock_01_knock_0020,knock\s08_pc_ambient\knock_0020.wav,knock,s08_pc_ambient,gain,+3 dB,"{""augmentation"": ""gain"", ""gain_db"": 3.0}",OK
+2507a6969e0312b0,single,knock_02_knock_0009,knock\s06_pc_other_room\knock_0009.wav,knock,s06_pc_other_room,gain,+6 dB,"{""augmentation"": ""gain"", ""gain_db"": 6.0}",OK
+708af6bd2ca52110,single,knock_03_knock_0014,knock\s03_pc_far\knock_0014.wav,knock,s03_pc_far,gain,+9 dB,"{""augmentation"": ""gain"", ""gain_db"": 9.0}",OK
+bee004f28f5b151a,single,knock_00_s4r1p2m_0074,knock\s04_phone_far\s4r1p2m_0074.wav,knock,s04_phone_far,noise,30 dB SNR,"{""augmentation"": ""noise"", ""seed"": 1819462951, ""snr_db"": 30.0}",OK
+0f1bb0d59ee3e6b6,single,knock_01_knock_0020,knock\s08_pc_ambient\knock_0020.wav,knock,s08_pc_ambient,noise,20 dB SNR,"{""augmentation"": ""noise"", ""seed"": 4286392553, ""snr_db"": 20.0}",OK
+003bea0437bbc3e2,single,knock_02_knock_0009,knock\s06_pc_other_room\knock_0009.wav,knock,s06_pc_other_room,noise,15 dB SNR,"{""augmentation"": ""noise"", ""seed"": 2898524301, ""snr_db"": 15.0}",OK
+9a416149600606c8,single,sing_00_s2r1p30cm_0018,sing\s02_phone_near\s2r1p30cm_0018.wav,sing,s02_phone_near,time_shift,-20%,"{""augmentation"": ""time_shift"", ""fraction"": -0.2}",OK
+24cc1ea61c6f68b0,single,sing_01_s7r1p_ambient_0012,sing\s07_phone_ambient\s7r1p_ambient_0012.wav,sing,s07_phone_ambient,time_shift,-10%,"{""augmentation"": ""time_shift"", ""fraction"": -0.1}",OK
+ae48f80836dc8f92,single,sing_02_s4r1p2m_0025,sing\s04_phone_far\s4r1p2m_0025.wav,sing,s04_phone_far,time_shift,-5%,"{""augmentation"": ""time_shift"", ""fraction"": -0.05}",OK
+c01113078195c95a,single,sing_03_sing_0020,sing\s06_pc_other_room\sing_0020.wav,sing,s06_pc_other_room,time_shift,+5%,"{""augmentation"": ""time_shift"", ""fraction"": 0.05}",OK
+57f9bb5d237f2173,single,sing_00_s2r1p30cm_0018,sing\s02_phone_near\s2r1p30cm_0018.wav,sing,s02_phone_near,time_shift,+10%,"{""augmentation"": ""time_shift"", ""fraction"": 0.1}",OK
+82bc3fae050b69e7,single,sing_01_s7r1p_ambient_0012,sing\s07_phone_ambient\s7r1p_ambient_0012.wav,sing,s07_phone_ambient,time_shift,+20%,"{""augmentation"": ""time_shift"", ""fraction"": 0.2}",OK
+4a21dd53d1c68e95,single,sing_02_s4r1p2m_0025,sing\s04_phone_far\s4r1p2m_0025.wav,sing,s04_phone_far,gain,-9 dB,"{""augmentation"": ""gain"", ""gain_db"": -9.0}",OK
+b5c549bb5a857ca5,single,sing_03_sing_0020,sing\s06_pc_other_room\sing_0020.wav,sing,s06_pc_other_room,gain,-6 dB,"{""augmentation"": ""gain"", ""gain_db"": -6.0}",OK
+fb27ae35f6941f5c,single,sing_00_s2r1p30cm_0018,sing\s02_phone_near\s2r1p30cm_0018.wav,sing,s02_phone_near,gain,-3 dB,"{""augmentation"": ""gain"", ""gain_db"": -3.0}",OK
+6bb75d3824849af4,single,sing_01_s7r1p_ambient_0012,sing\s07_phone_ambient\s7r1p_ambient_0012.wav,sing,s07_phone_ambient,gain,+3 dB,"{""augmentation"": ""gain"", ""gain_db"": 3.0}",OK
+6a319b3825df7929,single,sing_02_s4r1p2m_0025,sing\s04_phone_far\s4r1p2m_0025.wav,sing,s04_phone_far,gain,+6 dB,"{""augmentation"": ""gain"", ""gain_db"": 6.0}",OK
+1edb7c0ce3bb408f,single,sing_03_sing_0020,sing\s06_pc_other_room\sing_0020.wav,sing,s06_pc_other_room,gain,+9 dB,"{""augmentation"": ""gain"", ""gain_db"": 9.0}",OK
+5b057787a7c697ee,single,sing_00_s2r1p30cm_0018,sing\s02_phone_near\s2r1p30cm_0018.wav,sing,s02_phone_near,noise,30 dB SNR,"{""augmentation"": ""noise"", ""seed"": 611803864, ""snr_db"": 30.0}",OK
+c3506d82c6264797,single,sing_01_s7r1p_ambient_0012,sing\s07_phone_ambient\s7r1p_ambient_0012.wav,sing,s07_phone_ambient,noise,20 dB SNR,"{""augmentation"": ""noise"", ""seed"": 590127287, ""snr_db"": 20.0}",OK
+ba6b92b97716b950,single,sing_02_s4r1p2m_0025,sing\s04_phone_far\s4r1p2m_0025.wav,sing,s04_phone_far,noise,15 dB SNR,"{""augmentation"": ""noise"", ""seed"": 1874512850, ""snr_db"": 15.0}",OK
+dd972ffdcc4be2fc,single,spoon_00_spoon_0015,spoon\s06_pc_other_room\spoon_0015.wav,spoon,s06_pc_other_room,time_shift,-20%,"{""augmentation"": ""time_shift"", ""fraction"": -0.2}",OK
+e2372b7715f0335d,single,spoon_01_s2r1p30cm_0029,spoon\s02_phone_near\s2r1p30cm_0029.wav,spoon,s02_phone_near,time_shift,-10%,"{""augmentation"": ""time_shift"", ""fraction"": -0.1}",OK
+075bf79a1d749a03,single,spoon_02_s7r1p_ambient_0043,spoon\s07_phone_ambient\s7r1p_ambient_0043.wav,spoon,s07_phone_ambient,time_shift,-5%,"{""augmentation"": ""time_shift"", ""fraction"": -0.05}",OK
+0a68a86d19f4f93c,single,spoon_03_spoon_0011,spoon\s08_pc_ambient\spoon_0011.wav,spoon,s08_pc_ambient,time_shift,+5%,"{""augmentation"": ""time_shift"", ""fraction"": 0.05}",OK
+ad6587026345d87a,single,spoon_00_spoon_0015,spoon\s06_pc_other_room\spoon_0015.wav,spoon,s06_pc_other_room,time_shift,+10%,"{""augmentation"": ""time_shift"", ""fraction"": 0.1}",OK
+b0d821f0c26d9d54,single,spoon_01_s2r1p30cm_0029,spoon\s02_phone_near\s2r1p30cm_0029.wav,spoon,s02_phone_near,time_shift,+20%,"{""augmentation"": ""time_shift"", ""fraction"": 0.2}",OK
+f3df6d7169b632e9,single,spoon_02_s7r1p_ambient_0043,spoon\s07_phone_ambient\s7r1p_ambient_0043.wav,spoon,s07_phone_ambient,gain,-9 dB,"{""augmentation"": ""gain"", ""gain_db"": -9.0}",OK
+0842d8744c0f443c,single,spoon_03_spoon_0011,spoon\s08_pc_ambient\spoon_0011.wav,spoon,s08_pc_ambient,gain,-6 dB,"{""augmentation"": ""gain"", ""gain_db"": -6.0}",OK
+ad7f97656dd18cce,single,spoon_00_spoon_0015,spoon\s06_pc_other_room\spoon_0015.wav,spoon,s06_pc_other_room,gain,-3 dB,"{""augmentation"": ""gain"", ""gain_db"": -3.0}",OK
+d20a8d5a95d6ed77,single,spoon_01_s2r1p30cm_0029,spoon\s02_phone_near\s2r1p30cm_0029.wav,spoon,s02_phone_near,gain,+3 dB,"{""augmentation"": ""gain"", ""gain_db"": 3.0}",OK
+58e9f3ab8eb812d9,single,spoon_02_s7r1p_ambient_0043,spoon\s07_phone_ambient\s7r1p_ambient_0043.wav,spoon,s07_phone_ambient,gain,+6 dB,"{""augmentation"": ""gain"", ""gain_db"": 6.0}",OK
+6594779fd71d1b4c,single,spoon_03_spoon_0011,spoon\s08_pc_ambient\spoon_0011.wav,spoon,s08_pc_ambient,gain,+9 dB,"{""augmentation"": ""gain"", ""gain_db"": 9.0}",OK
+2dd8c6378c11cc33,single,spoon_00_spoon_0015,spoon\s06_pc_other_room\spoon_0015.wav,spoon,s06_pc_other_room,noise,30 dB SNR,"{""augmentation"": ""noise"", ""seed"": 4051911560, ""snr_db"": 30.0}",OK
+bcf7fdcd0e8c68a1,single,spoon_01_s2r1p30cm_0029,spoon\s02_phone_near\s2r1p30cm_0029.wav,spoon,s02_phone_near,noise,20 dB SNR,"{""augmentation"": ""noise"", ""seed"": 1324115754, ""snr_db"": 20.0}",OK
+8a2e06b7556b7f75,single,spoon_02_s7r1p_ambient_0043,spoon\s07_phone_ambient\s7r1p_ambient_0043.wav,spoon,s07_phone_ambient,noise,15 dB SNR,"{""augmentation"": ""noise"", ""seed"": 350924077, ""snr_db"": 15.0}",OK
+50a4f0d17d5bd1a5,single,whistle_00_whistle_0012,whistle\s06_pc_other_room\whistle_0012.wav,whistle,s06_pc_other_room,time_shift,-20%,"{""augmentation"": ""time_shift"", ""fraction"": -0.2}",OK
+0bb87a87b574e411,single,whistle_01_s7_phone_ambient_0087,whistle\s07_phone_ambient\s7_phone_ambient_0087.wav,whistle,s07_phone_ambient,time_shift,-10%,"{""augmentation"": ""time_shift"", ""fraction"": -0.1}",OK
+f4427a66e7538668,single,whistle_02_s4_phone_far_0085,whistle\s04_phone_far\s4_phone_far_0085.wav,whistle,s04_phone_far,time_shift,-5%,"{""augmentation"": ""time_shift"", ""fraction"": -0.05}",OK
+2d96554dcbb6c4e6,single,whistle_03_whistle_0004,whistle\s08_pc_ambient\whistle_0004.wav,whistle,s08_pc_ambient,time_shift,+5%,"{""augmentation"": ""time_shift"", ""fraction"": 0.05}",OK
+e8736452ca20c20c,single,whistle_00_whistle_0012,whistle\s06_pc_other_room\whistle_0012.wav,whistle,s06_pc_other_room,time_shift,+10%,"{""augmentation"": ""time_shift"", ""fraction"": 0.1}",OK
+5f8f4da76bd8a1aa,single,whistle_01_s7_phone_ambient_0087,whistle\s07_phone_ambient\s7_phone_ambient_0087.wav,whistle,s07_phone_ambient,time_shift,+20%,"{""augmentation"": ""time_shift"", ""fraction"": 0.2}",OK
+b9bbc859b7680589,single,whistle_02_s4_phone_far_0085,whistle\s04_phone_far\s4_phone_far_0085.wav,whistle,s04_phone_far,gain,-9 dB,"{""augmentation"": ""gain"", ""gain_db"": -9.0}",OK
+baa5582a59cd4201,single,whistle_03_whistle_0004,whistle\s08_pc_ambient\whistle_0004.wav,whistle,s08_pc_ambient,gain,-6 dB,"{""augmentation"": ""gain"", ""gain_db"": -6.0}",OK
+505c8f337a0326b8,single,whistle_00_whistle_0012,whistle\s06_pc_other_room\whistle_0012.wav,whistle,s06_pc_other_room,gain,-3 dB,"{""augmentation"": ""gain"", ""gain_db"": -3.0}",OK
+c2ced39c259aed80,single,whistle_01_s7_phone_ambient_0087,whistle\s07_phone_ambient\s7_phone_ambient_0087.wav,whistle,s07_phone_ambient,gain,+3 dB,"{""augmentation"": ""gain"", ""gain_db"": 3.0}",OK
+d4eda0bc96ca62db,single,whistle_02_s4_phone_far_0085,whistle\s04_phone_far\s4_phone_far_0085.wav,whistle,s04_phone_far,gain,+6 dB,"{""augmentation"": ""gain"", ""gain_db"": 6.0}",OK
+a7b1cdee743f5356,single,whistle_03_whistle_0004,whistle\s08_pc_ambient\whistle_0004.wav,whistle,s08_pc_ambient,gain,+9 dB,"{""augmentation"": ""gain"", ""gain_db"": 9.0}",OK
+b2a8007c20eed7bf,single,whistle_00_whistle_0012,whistle\s06_pc_other_room\whistle_0012.wav,whistle,s06_pc_other_room,noise,30 dB SNR,"{""augmentation"": ""noise"", ""seed"": 661862610, ""snr_db"": 30.0}",OK
+f8920720e397603a,single,whistle_01_s7_phone_ambient_0087,whistle\s07_phone_ambient\s7_phone_ambient_0087.wav,whistle,s07_phone_ambient,noise,20 dB SNR,"{""augmentation"": ""noise"", ""seed"": 3261306695, ""snr_db"": 20.0}",OK
+0e98a236026aa7e6,single,whistle_02_s4_phone_far_0085,whistle\s04_phone_far\s4_phone_far_0085.wav,whistle,s04_phone_far,noise,15 dB SNR,"{""augmentation"": ""noise"", ""seed"": 1165294538, ""snr_db"": 15.0}",OK
+995b0c8a6a6a13ae,combined,clap_00_s2_phone_near_0004,clap\s02_phone_near\s2_phone_near_0004.wav,clap,s02_phone_near,combined,boundary composition,"{""augmentation"": ""combined"", ""fraction"": -0.2, ""gain_db"": -9.0, ""seed"": 247238494, ""snr_db"": 10.0}",OK
+1500cc80a276aa64,combined,clap_01_clap_0008,clap\s03_pc_far\clap_0008.wav,clap,s03_pc_far,combined,boundary composition,"{""augmentation"": ""combined"", ""fraction"": 0.2, ""gain_db"": 9.0, ""seed"": 341787866, ""snr_db"": 10.0}",OK
+9043156bfd9530fa,combined,knock_00_s4r1p2m_0074,knock\s04_phone_far\s4r1p2m_0074.wav,knock,s04_phone_far,combined,boundary composition,"{""augmentation"": ""combined"", ""fraction"": -0.2, ""gain_db"": -9.0, ""seed"": 4076814601, ""snr_db"": 10.0}",OK
+f8ecb344fe6dd847,combined,knock_01_knock_0020,knock\s08_pc_ambient\knock_0020.wav,knock,s08_pc_ambient,combined,boundary composition,"{""augmentation"": ""combined"", ""fraction"": 0.2, ""gain_db"": 9.0, ""seed"": 2227196059, ""snr_db"": 10.0}",OK
+cae09c3ebee53be3,combined,sing_00_s2r1p30cm_0018,sing\s02_phone_near\s2r1p30cm_0018.wav,sing,s02_phone_near,combined,boundary composition,"{""augmentation"": ""combined"", ""fraction"": -0.2, ""gain_db"": -9.0, ""seed"": 1529298334, ""snr_db"": 10.0}",OK
+2cbe02662a6652b5,combined,sing_01_s7r1p_ambient_0012,sing\s07_phone_ambient\s7r1p_ambient_0012.wav,sing,s07_phone_ambient,combined,boundary composition,"{""augmentation"": ""combined"", ""fraction"": 0.2, ""gain_db"": 9.0, ""seed"": 749942065, ""snr_db"": 10.0}",OK
+0290a3abbc5917ac,combined,spoon_00_spoon_0015,spoon\s06_pc_other_room\spoon_0015.wav,spoon,s06_pc_other_room,combined,boundary composition,"{""augmentation"": ""combined"", ""fraction"": -0.2, ""gain_db"": -9.0, ""seed"": 620426185, ""snr_db"": 10.0}",OK
+db408166f63af0b0,combined,spoon_01_s2r1p30cm_0029,spoon\s02_phone_near\s2r1p30cm_0029.wav,spoon,s02_phone_near,combined,boundary composition,"{""augmentation"": ""combined"", ""fraction"": 0.2, ""gain_db"": 9.0, ""seed"": 1195892464, ""snr_db"": 10.0}",OK
+da80ce85cba7d011,combined,whistle_00_whistle_0012,whistle\s06_pc_other_room\whistle_0012.wav,whistle,s06_pc_other_room,combined,boundary composition,"{""augmentation"": ""combined"", ""fraction"": -0.2, ""gain_db"": -9.0, ""seed"": 3954065603, ""snr_db"": 10.0}",OK
+72c04f2154178339,combined,whistle_01_s7_phone_ambient_0087,whistle\s07_phone_ambient\s7_phone_ambient_0087.wav,whistle,s07_phone_ambient,combined,boundary composition,"{""augmentation"": ""combined"", ""fraction"": 0.2, ""gain_db"": 9.0, ""seed"": 2940303617, ""snr_db"": 10.0}",OK
+555da78bcc6a55ba,single,clap_01_clap_0008,clap\s03_pc_far\clap_0008.wav,clap,s03_pc_far,noise,25 dB SNR,"{""augmentation"": ""noise"", ""seed"": 3903438868, ""snr_db"": 25.0}",OK
+b43bd906c9181668,single,clap_02_clap_0013,clap\s08_pc_ambient\clap_0013.wav,clap,s08_pc_ambient,noise,20 dB SNR,"{""augmentation"": ""noise"", ""seed"": 3922901680, ""snr_db"": 20.0}",OK
+1a432d030e836f54,single,clap_03_clap_0008,clap\s06_pc_other_room\clap_0008.wav,clap,s06_pc_other_room,noise,15 dB SNR,"{""augmentation"": ""noise"", ""seed"": 4097643582, ""snr_db"": 15.0}",OK
+f288a1a9a2703c01,single,knock_01_knock_0020,knock\s08_pc_ambient\knock_0020.wav,knock,s08_pc_ambient,noise,25 dB SNR,"{""augmentation"": ""noise"", ""seed"": 819664003, ""snr_db"": 25.0}",OK
+d2e426e11f39b853,single,knock_02_knock_0009,knock\s06_pc_other_room\knock_0009.wav,knock,s06_pc_other_room,noise,20 dB SNR,"{""augmentation"": ""noise"", ""seed"": 2164393604, ""snr_db"": 20.0}",OK
+b0102d2d05a36f92,single,knock_03_knock_0014,knock\s03_pc_far\knock_0014.wav,knock,s03_pc_far,noise,15 dB SNR,"{""augmentation"": ""noise"", ""seed"": 3107916731, ""snr_db"": 15.0}",OK
+aeb7a4cf969d8d4c,single,sing_01_s7r1p_ambient_0012,sing\s07_phone_ambient\s7r1p_ambient_0012.wav,sing,s07_phone_ambient,noise,25 dB SNR,"{""augmentation"": ""noise"", ""seed"": 359404941, ""snr_db"": 25.0}",OK
+2fc02d307a4f5ccb,single,sing_02_s4r1p2m_0025,sing\s04_phone_far\s4r1p2m_0025.wav,sing,s04_phone_far,noise,20 dB SNR,"{""augmentation"": ""noise"", ""seed"": 3595156711, ""snr_db"": 20.0}",OK
+e7963acb0c0c8639,single,sing_03_sing_0020,sing\s06_pc_other_room\sing_0020.wav,sing,s06_pc_other_room,noise,15 dB SNR,"{""augmentation"": ""noise"", ""seed"": 385012603, ""snr_db"": 15.0}",OK
+e890365cdc0ad886,single,spoon_01_s2r1p30cm_0029,spoon\s02_phone_near\s2r1p30cm_0029.wav,spoon,s02_phone_near,noise,25 dB SNR,"{""augmentation"": ""noise"", ""seed"": 4281135165, ""snr_db"": 25.0}",OK
+75aad7afc2e3979d,single,spoon_02_s7r1p_ambient_0043,spoon\s07_phone_ambient\s7r1p_ambient_0043.wav,spoon,s07_phone_ambient,noise,20 dB SNR,"{""augmentation"": ""noise"", ""seed"": 2892963518, ""snr_db"": 20.0}",OK
+250e441c650a5d9a,single,spoon_03_spoon_0011,spoon\s08_pc_ambient\spoon_0011.wav,spoon,s08_pc_ambient,noise,15 dB SNR,"{""augmentation"": ""noise"", ""seed"": 3279189359, ""snr_db"": 15.0}",OK
+b81e4577ffc745f6,single,whistle_01_s7_phone_ambient_0087,whistle\s07_phone_ambient\s7_phone_ambient_0087.wav,whistle,s07_phone_ambient,noise,25 dB SNR,"{""augmentation"": ""noise"", ""seed"": 2699042307, ""snr_db"": 25.0}",OK
+6a43356aca29e90f,single,whistle_02_s4_phone_far_0085,whistle\s04_phone_far\s4_phone_far_0085.wav,whistle,s04_phone_far,noise,20 dB SNR,"{""augmentation"": ""noise"", ""seed"": 2895920932, ""snr_db"": 20.0}",OK
+9708edd80a9ef277,single,whistle_03_whistle_0004,whistle\s08_pc_ambient\whistle_0004.wav,whistle,s08_pc_ambient,noise,15 dB SNR,"{""augmentation"": ""noise"", ""seed"": 253508309, ""snr_db"": 15.0}",OK
+69f94016db745732,combined,clap_00_s2_phone_near_0004,clap\s02_phone_near\s2_phone_near_0004.wav,clap,s02_phone_near,combined,boundary composition,"{""augmentation"": ""combined"", ""fraction"": -0.2, ""gain_db"": -9.0, ""seed"": 1048001873, ""snr_db"": 15.0}",OK
+adddaf48bfd336f2,combined,clap_01_clap_0008,clap\s03_pc_far\clap_0008.wav,clap,s03_pc_far,combined,boundary composition,"{""augmentation"": ""combined"", ""fraction"": 0.2, ""gain_db"": 9.0, ""seed"": 1560372582, ""snr_db"": 15.0}",OK
+63ae249c1e759434,combined,knock_00_s4r1p2m_0074,knock\s04_phone_far\s4r1p2m_0074.wav,knock,s04_phone_far,combined,boundary composition,"{""augmentation"": ""combined"", ""fraction"": -0.2, ""gain_db"": -9.0, ""seed"": 2465521899, ""snr_db"": 15.0}",OK
+b21c5aa806c3930c,combined,knock_01_knock_0020,knock\s08_pc_ambient\knock_0020.wav,knock,s08_pc_ambient,combined,boundary composition,"{""augmentation"": ""combined"", ""fraction"": 0.2, ""gain_db"": 9.0, ""seed"": 2272732577, ""snr_db"": 15.0}",OK
+8aad4cdf184b49f0,combined,sing_00_s2r1p30cm_0018,sing\s02_phone_near\s2r1p30cm_0018.wav,sing,s02_phone_near,combined,boundary composition,"{""augmentation"": ""combined"", ""fraction"": -0.2, ""gain_db"": -9.0, ""seed"": 1495084617, ""snr_db"": 15.0}",OK
+f620e26ef2c10b65,combined,sing_01_s7r1p_ambient_0012,sing\s07_phone_ambient\s7r1p_ambient_0012.wav,sing,s07_phone_ambient,combined,boundary composition,"{""augmentation"": ""combined"", ""fraction"": 0.2, ""gain_db"": 9.0, ""seed"": 294277195, ""snr_db"": 15.0}",OK
+40ecb54720bbd42d,combined,spoon_00_spoon_0015,spoon\s06_pc_other_room\spoon_0015.wav,spoon,s06_pc_other_room,combined,boundary composition,"{""augmentation"": ""combined"", ""fraction"": -0.2, ""gain_db"": -9.0, ""seed"": 3639378687, ""snr_db"": 15.0}",OK
+a413eee15acc3e2b,combined,spoon_01_s2r1p30cm_0029,spoon\s02_phone_near\s2r1p30cm_0029.wav,spoon,s02_phone_near,combined,boundary composition,"{""augmentation"": ""combined"", ""fraction"": 0.2, ""gain_db"": 9.0, ""seed"": 4181467236, ""snr_db"": 15.0}",OK
+c47e7beae5220bc9,combined,whistle_00_whistle_0012,whistle\s06_pc_other_room\whistle_0012.wav,whistle,s06_pc_other_room,combined,boundary composition,"{""augmentation"": ""combined"", ""fraction"": -0.2, ""gain_db"": -9.0, ""seed"": 1694023904, ""snr_db"": 15.0}",OK
+554995b6b905fec7,combined,whistle_01_s7_phone_ambient_0087,whistle\s07_phone_ambient\s7_phone_ambient_0087.wav,whistle,s07_phone_ambient,combined,boundary composition,"{""augmentation"": ""combined"", ""fraction"": 0.2, ""gain_db"": 9.0, ""seed"": 3038536606, ""snr_db"": 15.0}",OK

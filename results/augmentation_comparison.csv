@@ -1,0 +1,7 @@
+architecture,policy,val_macro_f1_mean,val_macro_f1_std,val_accuracy_mean,seeds
+CNN,NoAug,0.976882,0.024954,0.976667,3
+CNN,TimeShiftOnly,0.993317,0.011576,0.993333,3
+CNN,GainOnly,1.000000,0.000000,1.000000,3
+CNN,ShiftAndGain,0.996665,0.005777,0.996667,3
+CRNN,NoAug,0.996665,0.005777,0.996667,3
+CRNN,ShiftAndGain,1.000000,0.000000,1.000000,3

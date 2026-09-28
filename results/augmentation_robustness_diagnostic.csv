@@ -1,0 +1,4 @@
+augmentation,prediction_consistency,original_macro_f1,augmented_macro_f1,delta_macro_f1,original_accuracy,augmented_accuracy,mean_confidence_change_for_original_prediction
+TimeShiftSafeBoundary,0.96,0.9504273504273504,0.9496790757381259,-0.0007482746892244485,0.95,0.95,-0.025338791
+GainSafeBoundary,0.91,0.9504273504273504,0.9182828282828283,-0.032144522144522125,0.95,0.92,-0.025210276
+NoiseSafeBoundary,0.3,0.9504273504273504,0.18666666666666668,-0.7637606837606837,0.95,0.3,-0.30784908
